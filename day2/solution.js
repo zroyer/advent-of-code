@@ -2,7 +2,6 @@
 const partOne = input.filter((row) => {
   const bounds = row.split(" ")[0].split('-');
   const letterCount = row.split(" ")[2].split(row.split(" ")[1].split(':')[0]).length - 1;
-
   return bounds[0] <= letterCount && bounds[1] >= letterCount
 })
 

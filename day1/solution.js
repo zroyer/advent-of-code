@@ -1,6 +1,6 @@
 // https://adventofcode.com/2020/day/1
 
-// Part One:
+// Part One
 for (let i = 0; i < input.length - 1; i++) {
   for (let j = i + 1; j < input.length; j++) {
     if (input[i] + input[j] === 2020) {
@@ -11,7 +11,7 @@ for (let i = 0; i < input.length - 1; i++) {
 }
 
 
-// Part Two:
+// Part Two
 while (input.length > 1) {
   first = input.shift();
   for (let i = 0; i < input.length - 1; i++) {

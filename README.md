@@ -1,2 +1,3 @@
 # advent-of-code
-adventofcode.com
+
+My solutions to Advent of Code 2020, written in JavaScript 🌯
